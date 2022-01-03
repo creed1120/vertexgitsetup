@@ -34,7 +34,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Install dependencies
         run: |
-          composer install -o
           npm install
 
       - name: Build
