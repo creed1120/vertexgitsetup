@@ -39,3 +39,18 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Sync
+        env:
+          dest: 'aa35690b_1@68da9339a9.nxcli.net:/home/aa35690b/public_html/wp-content/themes/'
+        run: |
+          echo "${{secrets.DEPLOY_KEY}}" > deploy_key
+          chmod 600 ./deploy_key
+          rsync -chav --delete \
+            -e 'ssh -i ./deploy_key -o StrictHostKeyChecking=no' \
+            --exclude /deploy_key \
+            --exclude /.git/ \
+            --exclude /.github/ \
+            --exclude /.vscode/ \
+            --exclude /node_modules/ \
+            ./ ${{env.dest}}
