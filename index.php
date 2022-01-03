@@ -1,5 +1,5 @@
 <?php
 
-    echo "Vertex GIT Setup is up and running!";
+    echo "<h1>Deploy Legacy GIT Setup WP site is now under CI/CD Workflow!</h1>";
 
 ?>
