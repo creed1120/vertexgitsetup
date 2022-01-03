@@ -1,5 +1,5 @@
 <?php
 
-    echo "Vertex GIT Setup is up and running!";
+    echo "Vertex GIT Setup is up and running!!";
 
 ?>
