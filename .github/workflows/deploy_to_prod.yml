@@ -52,5 +52,6 @@ jobs:
             --exclude /.git/ \
             --exclude /.github/ \
             --exclude /.vscode/ \
+            --exclude /.vscode_disabled/ \
             --exclude /node_modules/ \
             ./ ${{env.dest}}
