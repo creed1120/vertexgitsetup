@@ -1,12 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Deploy to Production
+name: Deploy to Staging
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ production ]
+    branches: [ staging ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -42,7 +42,7 @@ jobs:
 
       - name: Sync
         env:
-          dest: 'aa35690b_1@68da9339a9.nxcli.net:/home/aa35690b/public_html/wp-content/themes/vertexgitsetup'
+          dest: 'af396ef9_1@63377aa704.nxcli.net:/home/af396ef9/public_html/wp-content/themes/vertexgitsetup'
         run: |
           echo "${{secrets.DEPLOY_KEY}}" > deploy_key
           chmod 600 ./deploy_key
