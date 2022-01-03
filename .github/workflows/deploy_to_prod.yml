@@ -42,7 +42,7 @@ jobs:
 
       - name: Sync
         env:
-          dest: 'aa35690b_1@68da9339a9.nxcli.net:/home/aa35690b/public_html/wp-content/themes/'
+          dest: 'aa35690b_1@68da9339a9.nxcli.net:/home/aa35690b/public_html/wp-content/themes/vertexgitsetup'
         run: |
           echo "${{secrets.DEPLOY_KEY}}" > deploy_key
           chmod 600 ./deploy_key
