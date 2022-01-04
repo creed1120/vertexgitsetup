@@ -3,14 +3,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Localhost Theme</title>
+        <title>Document</title>
 
-<<<<<<< HEAD
-    echo "<h1>** THE MAIN BRANCH ** Deploy Legacy GIT Setup WP site is now under CI/CD Workflow!</h1>";
-=======
         <?php wp_head(); ?>
     </head>
->>>>>>> staging
 
     <body>
         
@@ -60,29 +56,15 @@
                 <div class="container max-w-lg px-4 py-32 mx-auto text-left md:max-w-none md:text-center">
                     <!-- <h1 class="text-5xl font-extrabold leading-10 tracking-tight text-left text-gray-900 md:text-center sm:leading-none md:text-6xl lg:text-7xl"><span class="inline md:block">Start Crafting Your</span> <span class="relative mt-2 text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 to-indigo-500 md:inline-block">Next Great Idea</span></h1> -->
 
-                    <h1 class="text-4xl font-extrabold mb-10">GIT Actions Workflow is working like a Friggin Champ!!! 🔥</h1>
-                    
                     <?php if( have_posts() ) : ?>
 
-                        <div class="grid grid-cols-12 pb-10 sm:px-5 gap-x-8 gap-y-16">
-                            <?php while(have_posts()) : the_post() ?>
+                        <?php while(have_posts()) : the_post() ?>
 
-                            
-                                <div class="flex flex-col items-start text-left col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
-                                    <a href="#_" class="block w-full">
-                                        <img class="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56" src="https://cdn.devdojo.com/images/may2021/fruit.jpg">
-                                    </a>
-                                    <div class="bg-purple-500 flex items-center px-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white">
-                                        <span>Category goes here</span>
-                                    </div>
-                                    <h2 class="text-lg font-bold sm:text-xl md:text-2xl"><a href="#_"><?php echo the_title(); ?></a></h2>
-                                    <p class="text-left text-sm text-gray-500"><?php echo the_content(); ?></p>
-                                    <p class="pt-2 text-xs font-medium"><a href="#_" class="mr-1 underline">Mary Jane</a> · <span class="mx-1">April 17, 2021</span> · <span class="mx-1 text-gray-600">3 min. read</span></p>
-                                </div>
+                            <h1 class="text-2xl font-bold"><?php echo the_title() ?></h1>
+
+                            <p><?php the_content() ?></p>
 
                         <?php endwhile ?>
-
-                        </div>
 
                     <?php endif ?>
 

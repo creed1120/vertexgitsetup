@@ -1,20 +1,22 @@
 {
-  "name": "vertexgitsetup",
+  "name": "tailwindwpsite",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creed1120/vertexgitsetup.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/creed1120/vertexgitsetup/issues"
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.34",
+    "webpack-livereload-plugin": "^1.2.0"
   },
-  "homepage": "https://github.com/creed1120/vertexgitsetup#readme"
+  "dependencies": {
+    "postcss-nested": "^5.0.6",
+    "tailwindcss": "^2.2.17"
+  }
 }
