@@ -11,7 +11,7 @@ mix.js('src/js/app.js', 'js')
    .setPublicPath('dist');
    
 mix.browserSync({
-   proxy:'tailwindwpsite.test',
+   proxy:'vertexgitsetup.test',
    files: [
       '**/*.css',
       '**/*.js',
