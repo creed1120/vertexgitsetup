@@ -5,12 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Localhost Theme</title>
 
-<<<<<<< HEAD
-    echo "<h1>** THE MAIN BRANCH ** Deploy Legacy GIT Setup WP site is now under CI/CD Workflow!</h1>";
-=======
         <?php wp_head(); ?>
     </head>
->>>>>>> staging
 
     <body>
         
