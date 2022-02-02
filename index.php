@@ -60,6 +60,7 @@
                     <h3>ADDED NEW FEATURE WITHN STAGING BRANCH</h3>
                     <h3>ADDED SECOND NEW FEATURE WITHN STAGING BRANCH</h3>
                     <h3>ADDED THIRD NEW FEATURE WITHN STAGING BRANCH</h3>
+                    <h3>TEAM MEMBER PUSHES</h3>
 
                     <div class="bg-green-600 w-full p-10 my-10">
                         New Module added
