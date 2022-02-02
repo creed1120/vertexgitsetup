@@ -64,6 +64,10 @@
                     <div class="bg-green-600 w-full p-10 my-10">
                         New Module added
                     </div>
+
+                    <div class="bg-blue-600 w-full p-10 my-10">
+                        2nd Module Feature
+                    </div>
                     
                     <?php if( have_posts() ) : ?>
 
