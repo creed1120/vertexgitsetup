@@ -68,6 +68,7 @@
 
                     <div class="bg-green-800 text-white w-full p-10 my-10">
                         Google Map Module
+                        <br>
                         <span>Block for Drop Pins</span>
                     </div>
 
