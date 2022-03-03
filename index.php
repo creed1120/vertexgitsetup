@@ -62,6 +62,10 @@
                     <h3>ADDED THIRD NEW FEATURE WITHN STAGING BRANCH</h3>
                     <h3>TEAM MEMBER PUSHES</h3>
 
+                    <div class="bg-red-600 text-white w-full p-10 my-10">
+                        New Admin Feature
+                    </div>
+
                     <div class="bg-green-600 w-full p-10 my-10">
                         New Module added
                     </div>
@@ -69,6 +73,7 @@
                     <div class="bg-blue-600 w-full p-10 my-10">
                         2nd Module Feature
                     </div>
+
                     
                     <?php if( have_posts() ) : ?>
 
