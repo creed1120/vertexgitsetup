@@ -2,8 +2,11 @@
 /**
  * Main index template
  * 
+ * @package Vertexgitsetup 
  * 
  */
+
+require "includes/db_conn.php";
 
 include("header.php");
 ?>
@@ -18,14 +21,33 @@ include("header.php");
     <section class="w-full px-8 text-gray-700 bg-white">
         <div class="container py-5 mx-auto max-w-7xl">
 
-            <?php if (have_posts()) : ?>
-            <?php while (have_posts()) : the_post() ?>
+        <!-- DISPLAY CONTENT -->
+        <?php
 
-                <p class="py-4 text-3xl"><a href="<?php echo the_permalink(); ?>"><?php echo the_title(); ?></a></p>
-                <p><?php echo wp_trim_words(get_the_content(), 20, "...") ?></p>
+            $sql = "SELECT first_name, last_name, campus_id FROM student";
 
-                <?php endwhile; ?>
-            <?php endif; ?>
+            $result = $mysqli->query($sql);
+
+            
+
+            if ($result->num_rows > 0) {
+
+                echo $result->num_rows;
+
+                // display data from the query
+                while($row = $result->fetch_assoc()) { ?>
+                    
+                    <h1><?php echo $row["first_name"] . ' ' . $row["last_name"] . ' - ' . $row["campus_id"] ?></h1>
+
+                <?php }
+            } else {
+                echo "0 results";
+            }
+            
+            $result->close(); 
+
+        ?>
+            
 
     <?php get_template_part("partials/cta.php"); ?>
 
