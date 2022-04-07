@@ -6,6 +6,40 @@
  * 
  */
 
+ class Person
+ {
+     public $age;
+
+     public function __construct($age)
+     {
+         $this->age = $age;
+         echo 'The "' . __CLASS__ . '" class has been instantiated. </br>';
+     }
+
+     public function setAge($newAge) {
+         $this->age = $newAge;
+     }
+
+     public function getAge() {
+         return $this->age . "</br>";
+     }
+ }
+
+ class myClass
+ {
+     // porperties and methods
+     public $prop1 = "I'm a class property";
+     public $prop2 = "I'm the second class property";
+
+     public function myClassFunc() {
+         echo "I'm a class Method/function" . "</br>";
+     }
+ }
+
+ $obj = new myClass;
+
+
+
 require "includes/db_conn.php";
 
 include("header.php");
@@ -22,30 +56,16 @@ include("header.php");
         <div class="container py-5 mx-auto max-w-7xl">
 
         <!-- DISPLAY CONTENT -->
+
+        
+        <!-- <pre>
+            <//?php var_dump($obj); ?>
+        </pre> -->
+
         <?php
+            $personObj1 = new Person(44);
 
-            $sql = "SELECT first_name, last_name, campus_id FROM student";
-
-            $result = $mysqli->query($sql);
-
-            
-
-            if ($result->num_rows > 0) {
-
-                echo $result->num_rows;
-
-                // display data from the query
-                while($row = $result->fetch_assoc()) { ?>
-                    
-                    <h1><?php echo $row["first_name"] . ' ' . $row["last_name"] . ' - ' . $row["campus_id"] ?></h1>
-
-                <?php }
-            } else {
-                echo "0 results";
-            }
-            
-            $result->close(); 
-
+            echo $personObj1->getAge();
         ?>
             
 
