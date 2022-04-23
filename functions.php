@@ -1,9 +1,9 @@
 <?php
 /**
- * MyFirstTheme's functions and definitions
+ * Theme functions and definitions
  *
- * @package MyFirstTheme
- * @since MyFirstTheme 1.0
+ * @package Vertexgitsetup
+ * @since Vertexgitsetup 1.0
  */
  
 /**

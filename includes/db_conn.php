@@ -4,7 +4,7 @@
     $host = "localhost";
     $userName = "root";
     $database = "vertexgitsetup_mb2";
-    $password = "F00tb@ll1120";
+    $password = "";
 
     $mysqli = new mysqli($host, $userName, $password, $database);
 

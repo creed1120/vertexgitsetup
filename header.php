@@ -3,7 +3,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ECKM Portal Project</title>
+        <title>Wordpress Coding Practice</title>
 
         <?php wp_head(); ?>
     </head>
@@ -19,11 +19,11 @@
                 </a>
                 <nav class="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
                     
-                <?php
-                    wp_nav_menu( array(
-                        'theme_location' => "primary"
-                    ) );
-                ?>
+                    <?php
+                        wp_nav_menu( array(
+                            'theme_location' => "primary"
+                        ) );
+                    ?>
 
                 </nav>
             </div>
