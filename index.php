@@ -34,7 +34,9 @@ class Person
 
     <!-- Main Hero Content -->
     <div class="container max-w-lg px-4 py-20 mx-auto text-left md:max-w-none bg-red-600">
-        <h1 class="text-3xl font-bold leading-10 tracking-tight text-left text-white md:text-center sm:leading-none md:text-6xl lg:text-5xl"><span class="inline md:block">Wordpress Coding</span></h1>
+        <h1 class="text-3xl font-bold leading-10 tracking-tight text-left text-white md:text-center sm:leading-none md:text-6xl lg:text-5xl">
+            <span class="inline md:block">Wordpress Coding</span>
+        </h1>
     </div>
     <!-- End Main Hero Content -->
 
@@ -50,6 +52,5 @@ class Person
 
             echo $personObj1->getAge();
         ?>
-            
 
 <?php include("footer.php"); ?>
