@@ -37,8 +37,8 @@ jobs:
       #     composer install -o
       #     npm install
 
-      # - name: Build
-      #   run: npx mix
+      - name: Build
+        run: /opt/rh/rh-nodejs14/root/usr/bin/npx mix
 
       - name: Sync
         env:
