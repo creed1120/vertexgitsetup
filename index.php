@@ -59,7 +59,7 @@
                     <h1>Working on a Feature</h1>
 
                     <div class="bg-green-200 p-10 my-8">
-                        <p>My new box feature</p>
+                        <p>My new box feature for a image gallery</p>
                     </div>
 
                     <h1 class="text-4xl font-extrabold mb-10">GIT Actions Workflow is working like a Friggin Champ!!! 🔥</h1>
