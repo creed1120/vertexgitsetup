@@ -56,7 +56,7 @@
                 <div class="container max-w-lg px-4 py-32 mx-auto text-left md:max-w-none md:text-center">
                     <!-- <h1 class="text-5xl font-extrabold leading-10 tracking-tight text-left text-gray-900 md:text-center sm:leading-none md:text-6xl lg:text-7xl"><span class="inline md:block">Start Crafting Your</span> <span class="relative mt-2 text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 to-indigo-500 md:inline-block">Next Great Idea</span></h1> -->
 
-                    <h1>Working on a Feature</h1>
+                    <h1 class="text-4xl font-extrabold mb-10">GIT Actions Workflow is working like a Friggin Champ!!! 🔥</h1>
 
                     <div class="bg-red-400 p-10 my-8">
                         <p>My new box feature for a image gallery</p>
@@ -66,18 +66,6 @@
                         <p>My new box feature for a CTA</p>
                     </div>
 
-                    <h1 class="text-4xl font-extrabold mb-10">GIT Actions Workflow is working like a Friggin Champ!!! 🔥</h1>
-                    <h3>ADDED NEW FEATURE WITHN STAGING BRANCH</h3>
-                    <h3>ADDED SECOND NEW FEATURE WITHN STAGING BRANCH</h3>
-                    <h3>ADDED THIRD NEW FEATURE WITHN STAGING BRANCH</h3>
-
-                    <div class="bg-green-600 w-full p-10 my-10">
-                        New Module added
-                    </div>
-
-                    <div class="bg-blue-600 w-full p-10 my-10">
-                        2nd Module Feature
-                    </div>
                     
                     <?php if( have_posts() ) : ?>
 
