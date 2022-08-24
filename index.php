@@ -62,6 +62,10 @@
                         <p>My new box feature for a image gallery</p>
                     </div>
 
+                    <div class="bg-yellow-400 p-10 my-8">
+                        <p>My new box feature for a CTA</p>
+                    </div>
+
                     <h1 class="text-4xl font-extrabold mb-10">GIT Actions Workflow is working like a Friggin Champ!!! 🔥</h1>
                     <h3>ADDED NEW FEATURE WITHN STAGING BRANCH</h3>
                     <h3>ADDED SECOND NEW FEATURE WITHN STAGING BRANCH</h3>
