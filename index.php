@@ -30,7 +30,14 @@ class Person
     }
 }
 
+<<<<<<< HEAD
 ?>
+=======
+                    <h1 class="text-4xl font-extrabold mb-10">GIT Actions Workflow is working like a Friggin Champ!!! 🔥</h1>
+                    <h3>ADDED NEW FEATURE WITHN STAGING BRANCH</h3>
+                    <h3>ADDED SECOND NEW FEATURE WITHN STAGING BRANCH</h3>
+                    <h3>ADDED THIRD NEW FEATURE WITHN STAGING BRANCH</h3>
+>>>>>>> production
 
     <!-- Main Hero Content -->
     <div class="container max-w-lg px-4 py-20 mx-auto text-left md:max-w-none bg-red-600">
