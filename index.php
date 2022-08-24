@@ -58,7 +58,7 @@
 
                     <h1>Working on a Feature</h1>
 
-                    <div class="bg-green-200 p-10 my-8">
+                    <div class="bg-red-400 p-10 my-8">
                         <p>My new box feature for a image gallery</p>
                     </div>
 
