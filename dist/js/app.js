@@ -8,7 +8,7 @@
 /***/ (() => {
 
 // Custom JS code
-alert("some text here");
+// alert("some text here");
 
 /***/ }),
 
