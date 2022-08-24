@@ -60,6 +60,7 @@
 
                     <div class="bg-red-400 p-10 my-8">
                         <p>My new box feature for a image gallery</p>
+                        <div class=" text-xl font-extrabold">Another feature to merge</div>
                     </div>
 
                     <div class="bg-yellow-400 p-10 my-8">
