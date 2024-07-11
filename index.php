@@ -67,6 +67,10 @@
                         <p>My new box feature for a CTA</p>
                     </div>
 
+                    <div class="bg-yellow-400 p-10 my-8">
+                        <p>CTA MANIA!!!!!</p>
+                    </div>
+
                     
                     <?php if( have_posts() ) : ?>
 
